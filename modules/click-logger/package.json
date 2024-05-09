@@ -1,12 +1,15 @@
 {
   "name": "@econte-sprig/click-logger",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "main": "./src/main.js",
   "types": "./src/main.d.ts",
   "scripts": {
     "build": "npx tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "files": [
+    "./src/*"
+  ],
   "keywords": [],
   "author": "",
   "license": "ISC",

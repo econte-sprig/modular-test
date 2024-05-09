@@ -5,7 +5,7 @@ export const MouseLogger = {
   version: p.version,
   attach: (e: HTMLElement) => {
     e.addEventListener('mouseenter', () => {
-      console.log('enter');
+      console.log('Entered');
     });
   },
 }

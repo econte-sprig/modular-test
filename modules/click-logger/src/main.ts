@@ -5,7 +5,7 @@ export const ClickLogger = {
   version: p.version,
   attach: (e: HTMLElement) => {
     e.addEventListener('click', () => {
-      console.log('click');
+      console.log('Clicked');
     });
   },
 }
