@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "declaration": true,
+    "module": "ESNext",
+    "esModuleInterop": true,
+    "target": "ESNext",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "strict": true,
+    "resolveJsonModule": true,
+    "outDir": "dist",
+    "paths": {
+      "@econte-sprig/click-logger": [
+        "modules/click-logger/src/main.ts",
+      ],
+      "@econte-sprig/core": [
+        "modules/core/src/main.ts",
+      ],
+      "@econte-sprig/mouse-logger": [
+        "modules/mouse-logger/src/main.ts",
+      ],
+      "@econte-sprig/key-logger": [
+        "modules/key-logger/src/main.ts",
+      ],
+    }
+  },
+  "include": ["./package.json", "./src"],
+  "lib": ["es2015"]
+}

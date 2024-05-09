@@ -1,0 +1,23 @@
+{
+  "name": "@econte-sprig/modular-test",
+  "version": "1.0.4",
+  "main": "./src/main.js",
+  "types": "./src/main.d.ts",
+  "scripts": {
+    "build": "npx tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  },
+  "description": "",
+  "dependencies": {
+    "@econte-sprig/click-logger": "^1.0.0",
+    "@econte-sprig/core": "^1.0.1",
+    "@econte-sprig/key-logger": "^1.0.0",
+    "@econte-sprig/mouse-logger": "^1.0.0"
+  }
+}
